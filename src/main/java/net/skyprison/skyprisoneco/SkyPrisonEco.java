@@ -25,7 +25,7 @@ import java.util.regex.Pattern;
 
 public final class SkyPrisonEco extends JavaPlugin {
 
-	@Inject private Tokens tokens;
+	@Inject public Tokens tokens;
 	@Inject private CommandsTabCompleter CommandsTabCompleter;
 
 	@Inject private LangCreator langCreator;
