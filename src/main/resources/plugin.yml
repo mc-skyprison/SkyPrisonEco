@@ -1,0 +1,23 @@
+name: SkyPrisonEco
+version: ${project.version}
+main: net.skyprison.skyprisoneco.SkyPrisonEco
+api-version: 1.16
+depend: [CMI, PlaceholderAPI]
+commands:
+  tokens:
+    description: Token related stuff
+    usage: /<command>
+    permission: skyprisoneco.command.tokens
+    permission-message: §4Error:§c You do not have permission to execute this command...
+  token:
+    description: Token related stuff
+    usage: /<command>
+    permission: skyprisoneco.command.tokens
+    permission-message: §4Error:§c You do not have permission to execute this command...
+permissions:
+  skyprisoneco.command.tokens:
+    description: Bypasses Item Removal and that kind of stuff
+  skyprisoneco.command.tokens.admin:
+    description: Bypasses Item Removal and that kind of stuff
+
+
